@@ -1,0 +1,41 @@
+# .gitignore for Python + Jupyter + VSCode + ML Projects
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# VSCode / PyCharm settings 
+.vscode/
+.idea/
+
+# Model files
+*.pth
+
+# Hugging Face cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Dataset cache 
+data/azerbaijan-landmarks-dataset
+
+# Logs
+*.log
+*.csv
+loss_graph.png
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Colab or Jupyter temporary files
+*.swp
